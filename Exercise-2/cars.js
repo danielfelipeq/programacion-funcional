@@ -100,13 +100,16 @@ const cars = [
   { brand: "Chevrolet", price: 4726, model: 1974 },
   { brand: "Ferrari", price: 9541, model: 1970 },
 ];
-
-// console.log(ferraris(cars));
-// console.log(nineties(cars));
-//console.log(list(cars));
+console.log("Ferrari brands:");
+console.log(ferraris(cars));
+console.log("Cars models between 1980 and 1990:");
+console.log(nineties(cars));
+console.log("Listando carros:");
+console.log(list(cars));
+console.log("All prices of the BMW cars:");
 console.log(bmwSum(cars));
 
-// import { ferraris } from "./functionFerrari.js";
-// import { nineties } from "./functionNineties.js";
-//import { list } from "./functionList.js";
+import { ferraris } from "./functionFerrari.js";
+import { nineties } from "./functionNineties.js";
+import { list } from "./functionList.js";
 import { bmwSum } from "./functionBmwSum.js";
