@@ -1,1 +1,1 @@
-# programacion-funcional
+# Ejercicios de Programación Funcional
